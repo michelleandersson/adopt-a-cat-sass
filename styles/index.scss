@@ -1,6 +1,8 @@
+@use 'fonts';
+
 @import 'header'; 
 @import 'main'; 
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: fonts.$main-font;
 }
